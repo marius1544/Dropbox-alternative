@@ -4,7 +4,7 @@ export const client = new Client({
     user: 'postgres.hbximkivihfieqewpbff',
     database: 'postgres',
     port: '5432',
-    host: 'aws-0-xx.pooler.supabase.com',
+    host: 'aws-1-eu-west-1.pooler.supabase.com',
     password: 'HvitSvartSauehode1',
     ssl: { rejectUnauthorized: false }
 })
