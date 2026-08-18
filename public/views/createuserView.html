@@ -1,0 +1,34 @@
+<div>
+  <img id="imgdiv" src="./dropbox-background.png" alt="background picture"/>
+</div>
+<form id="InputForm">
+  <input id="usernameInput" type="text" placeholder="Input username here" required/><br />
+  <p id="OutputField"></p>
+
+  <input id="tosMenuCheckbox" type="checkbox" required />
+  <label for="tosMenuCheckbox">
+  <span id="click-tos">Click to agree to</span>
+  <a id="tos-link" href="./utils-folder/ToS.md">Terms of service</a>
+</label>
+  <button type="submit" id="submitTOS">Last opp sikkert</button>
+</form>
+<p>
+  <span id="privacy-policy">Read our privacy policy</span>
+  <a id="privacy-link" href="../utils-folder/Privacy-policy.md">here</a>
+</p>
+<form>
+  <section class="file-upload-section">
+        <span id="filelabel" class="file-upload-types">
+                Upload a PNG image
+        </span>
+        <label id="file-drop-box" class="file-drop-box" for="fileinput">
+          <input type="file" id="fileinput" required>
+          <span class="file-upload-icon" aria-hidden="true">↥</span>
+          <strong id="drop-text">Dra filen hit</strong>
+          <span id="file-upload-choice" class="file-upload-choice">eller klikk for å velge fil</span>
+        </label>
+</section>
+        <p id="fileName"></p>
+        <img id="preview">
+        <p id="uploadStatus"></p>
+</form>
